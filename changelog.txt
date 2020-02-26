@@ -1,0 +1,45 @@
+26.02.20
+Änderungen für GitHub Pages
+
+15.02.20
+Favicon hinzugefügt
+
+14.02.20
+Zuletzt verwendeter Filter das nächste Mal automatisch angewendet
+Nicht länger verwendeter Code wurde entfernt
+Animation verbessert
+
+12.02.20
+(Lehrer) wird im event_header angezeigt
+(Fach) und (Lehrer) werden nicht mehr im event_info_container angezeigt
+
+11.02.20
+Text für Filterbutton
+:active-Effekte
+
+10.02.20
+Mehr UI-Verbesserungen
+
+09.02.20:
+Verbesserung der Les- und Nutzbarkeit
+UI-Verbesserungen
+
+07.02.20:
+Verbesserung der Les- und Nutzbarkeit
+
+26.08.19:
+Implementierung der Modular scale
+Code restrukturierung
+
+06.12.18:
+Leerzeilenfix für Firefox
+
+08.10.18:
+Designverbesserungen
+Zuletzt verwendeter Filter wird gespeichert
+
+07.10.18:
+Filterfunktion
+
+06.10.18:
+V1
