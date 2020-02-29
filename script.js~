@@ -19,7 +19,7 @@ window.onload = function() {
 		}
 	};
 
-	xhttp.open("GET", window.location.origin + window.location.pathname + "original_plan.html");
+	xhttp.open("GET", window.location.origin + "/original_plan.html");
 	xhttp.send();
 };
 
