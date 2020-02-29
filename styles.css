@@ -239,12 +239,14 @@ option, optgroup {
 
 
 
-
-a {
+body > a, body > span {
 	display: block;
 	margin: auto;
 	font-size: var(--space--1);
-	text-decoration: underline;
 	max-width: 500px;
 	color: #000;
+
+}
+a {
+	text-decoration: underline;
 }
