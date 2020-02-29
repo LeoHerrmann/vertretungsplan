@@ -202,7 +202,6 @@ option, optgroup {
 @keyframes slideUp {
 	from {
 		opacity:0;
-		/*transform:translateY(15px);*/
 		height: calc((var(--space-3) + 2 * var(--space--2)) * 0);
 		padding: 0 var(--space--2);
 		margin: 0;
@@ -242,10 +241,10 @@ option, optgroup {
 body > a, body > span {
 	display: block;
 	margin: auto;
-	font-size: var(--space--1);
+	margin-top: var(--space--1);
 	max-width: 500px;
+	font-size: var(--space--1);
 	color: #000;
-
 }
 a {
 	text-decoration: underline;
