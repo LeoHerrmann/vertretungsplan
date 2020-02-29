@@ -1,6 +1,6 @@
 # Vertretungsplan
 
-Displays the hard to read mess of a substitution table of my school to a mobile friendly layout.
+Displays the hard to read substitution table of my school in a mobile friendly layout.
 
 This is the demo version showing outdated data, however, it still works exactly the same way as the original version.
 
