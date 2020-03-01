@@ -1,3 +1,6 @@
+01.03.20
+Fehler beim Laden der manifest.json korrigiert
+
 26.02.20
 Änderungen für GitHub Pages
 
