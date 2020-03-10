@@ -1,4 +1,5 @@
 
+.icon-refresh:before { content: '\e800'; } /* '' */
 .icon-arrow-down:before { content: '\e807'; } /* '' */
 .icon-arrow-up:before { content: '\e808'; } /* '' */
 .icon-github:before { content: '\f09b'; } /* '' */

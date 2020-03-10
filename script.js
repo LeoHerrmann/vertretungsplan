@@ -117,11 +117,23 @@ function displayJsonAsHtml(json) {
 			for (event of json[day][className]) {
 				var eventContainer = document.createElement("div");
 				eventContainer.className = "expandable event_container";
-				eventContainer.innerHTML = 
-					"<div class='header event_header'>" +
-						`<span>${event["(Fach)"]}, ${event["(Lehrer)"]}</span>` + 
-						"<span class='icon-arrow-down'></span>" +
-					"</div>";
+
+				eventContainerInnerHTML = "<div class='header event_header'><span>";
+
+				if (event["(Fach)"].trim() == "") {
+					eventContainerInnerHTML += event["Fach"];
+				}
+				else {
+					eventContainerInnerHTML += event["(Fach)"];
+				}
+
+				if (event["(Lehrer)"].trim() !== "") {
+					eventContainerInnerHTML += ", " + event["(Lehrer)"];
+				}
+
+				eventContainerInnerHTML += "</span><span class='icon-arrow-down'></span></div>";
+
+				eventContainer.innerHTML = eventContainerInnerHTML;
 
 				classDetails.append(eventContainer);
 

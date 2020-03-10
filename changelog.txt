@@ -1,3 +1,8 @@
+10.03.20
+Refresh-Button
+Wenn (Fach) leer ist, wird Fach angezeigt
+Mehr Kleinigkeiten
+
 01.03.20
 Fehler beim Laden der manifest.json korrigiert
 
